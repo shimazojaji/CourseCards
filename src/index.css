@@ -1,0 +1,38 @@
+:root {
+  --primary-color: #0e2954;
+  --secondary-color: #2e8a99;
+  --tertiary-coolor: #B692C2;
+  --success-color: #7aba78;
+  --error-color: #c2410c;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "IBM Plex Mono", sans-serif;
+}
+
+p {
+  text-align: left;
+}
+
+.badge {
+  white-space: nowrap;
+  padding: 0.3rem 0.5rem;
+  border-radius: 0.6rem;
+  display: inline-block;
+  font-size: 0.9rem;
+  color: #fff;
+}
+.badge:hover{
+  opacity: 80%;
+}
+
+
