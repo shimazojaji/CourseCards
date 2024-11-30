@@ -1,6 +1,7 @@
 # CourseCards App
 ## Introduction
-
+When I started learning React and got familiar with the concepts of components and props, I created this mini-App.
+This mini-app was developed  to display a limited list of lessons.
 
 
 ## Technologies applied 
