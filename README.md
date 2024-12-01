@@ -29,3 +29,31 @@ The JavaScript features and methods used in this mini app include:
 ## How to use
 - npm install
 - npm run dev
+
+## Details
+The project includes a main folder named src, which contains components and all the core files of the project.
+The structure of the src folder is as follows:
+The custom components of the project are as follows:
+ - CourseCard
+ - CourseList
+ - Footer
+ - Header
+ - StartIcon
+   
+The styling files include:
+- index.css
+- App.css
+
+  
+The main components include:
+- main.jsx
+- App.jsx
+
+
+The `Header` component is used to display a static text.  
+
+The `CourseList` component is responsible for displaying a list of courses defined as objects in the `courses` array.  
+
+The `CourseCard` component is rendered for each course in the `courses` array. It utilizes `props` to customize the structure and content of each course.  
+
+The `Footer` component is used to display a static text as well.
